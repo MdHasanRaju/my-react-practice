@@ -73,8 +73,9 @@ function Todo(props) {
       style={{
         backgroundColor: "greenyellow",
         margin: "10px",
+        border:"2px solid crimson",
         borderRadius: "15px",
-        padding: "15px",
+        padding: "15px"
       }}
     >
       <h3 style={{ color: "red", fontWeight: "700" }}>Todo Id: {props.id}</h3>
